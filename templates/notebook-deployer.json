@@ -28,7 +28,7 @@
         },
         {
             "name": "NOTEBOOK_INTERFACE",
-            "value": "classic"
+            "value": "lab"
         },
         {
             "name": "NOTEBOOK_MEMORY",
@@ -104,6 +104,10 @@
                                     {
                                         "name": "JUPYTER_NOTEBOOK_INTERFACE",
                                         "value": "${NOTEBOOK_INTERFACE}"
+                                    },
+                                    {
+                                        "name": "JUPYTER_NOTEBOOK_PORT",
+                                        "value": "8080"
                                     }
                                 ]
                             }
